@@ -1,0 +1,217 @@
+body {
+font-family: Arial, sans-serif;
+background: linear-gradient(to bottom right, #007bff, #00ffff, #00ff80);
+background-size: cover;
+background-repeat: no-repeat;
+min-height: 100vh;
+align-self: center;
+align-items: center;
+justify-content: center;
+}
+
+.grid-container {
+padding: 20px;
+background-color: rgba(255, 255, 255, 0.8);
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+align-items: center;
+align-content: center;
+text-align: center;
+border-radius: 30px;
+}
+
+.content {
+display: flex;
+justify-content: space-evenly;
+}
+
+.extras {
+display: flex;
+justify-content: space-evenly;
+}
+
+.task-list
+{
+align-items: center;
+width: 100%;
+background-color: rgba(255, 255, 255, 0.8);
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.input-container {
+width: 400px;
+height: 200px;
+padding: 20px;
+background-color: rgba(255, 255, 255, 0.8);
+box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
+align-items: center;
+align-content: center;
+text-align: center;
+border-radius: 30px;
+}
+
+#task-input{
+width: 100%;
+padding: 5px;
+border-width: 0px;
+border-bottom-width: 2px;
+font-size: 16px;
+}
+
+#description-input {
+width: 100%;
+padding: 5px;
+border-width: 0px;
+font-size: 16px;
+}
+
+#description-input {
+resize: vertical;
+margin-bottom: 10px;
+}
+
+#add-task {
+background-color: #4CAF50;
+color: white;
+border: none;
+align-items: center;
+align-content: center;
+text-align: center;
+cursor: pointer;
+padding: 5px 10px;
+font-size: 16px;
+cursor: pointer;
+}
+
+.search-container {
+text-align: center;
+width: 96.6%;
+border-radius: 3px;
+border-width: 2px;
+}
+
+#search-input {
+width: 100%;
+padding: 5px;
+font-size: 16px;
+border-radius: 10px;
+border-width: 3px;
+}
+
+#task-list {
+list-style-type: none;
+padding: 0;
+text-align: center;
+}
+
+#task-list li {
+display: flex;
+align-items: center;
+padding: 5px;
+border-bottom: 1px solid #ddd;
+justify-content: space-between;
+}
+
+#task-list li .task-info {
+display: flex;
+align-items: center;
+}
+
+#task-list li .task-text {
+margin-left: 10px;
+}
+
+#task-list li .task-date {
+font-size: 12px;
+color: #888;
+}
+
+#task-list li .task-actions {
+display: flex;
+gap: 5px;
+}
+
+#task-list li .task-actions button {
+background-color: transparent;
+border: none;
+cursor: pointer;
+font-size: 16px;
+}
+
+.task-list {
+width: 400px;
+height: 250px;
+max-height: 300px; /* Adjust the height as needed */
+overflow-y: auto;
+background-color: #fff;
+border-radius: 10px;
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+table {
+border-collapse: collapse;
+width: 300px;
+border-radius: 5px;
+}
+th, td {
+border: 1px dotted black;
+border-radius: 5px;
+padding: 8px;
+text-align: center;
+}
+.today {
+background-color: blue;
+color: white;
+border-radius: 50%;
+}
+
+.date-circle {
+display: inline-block;
+width: 24px;
+height: 24px;
+line-height: 24px;
+text-align: center;
+background-color: blue;
+color: white;
+border-radius: 50%;
+}
+
+.analytics
+{
+width: 350px;
+padding: 20px;
+background-color: rgba(255, 255, 255, 0.8);
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+align-items: start;
+align-content: start;
+border-radius: 30px;
+}
+
+.Calendar
+{
+width: 300px;
+align-items: end;
+padding: 20px;
+background-color: rgba(255, 255, 255, 0.8);
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+align-items: right;
+align-content: right;
+text-align: end;
+border-radius: 30px;
+}
+
+.calendar-container {
+flex: 0 0 300px; 
+}
+
+#calendar {
+text-align: center;
+}
+
+#calendar h2 {
+margin-bottom: 10px;
+}
+
+#calendar table {
+margin: 0 auto;
+}
