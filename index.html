@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>To-Do List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" />
+</head>
+    
+    <body>
+        <div class="grid-container">
+            <h1 align="center">Todo-List</h1>
+            <hr>
+            <div class="content">
+                <div class="task-list">
+                    <div class="search-container">
+                        <input type="text" id="search-input" placeholder="Search tasks">
+                    </div>
+                    <ol id="task-list"></ol>
+                </div>
+                <aside>
+                <div class="input-container" align="right">
+                    <h2>Add Task</h2>
+                    <input type="text" id="task-input" placeholder="Enter a new task">
+                    <textarea id="description-input" placeholder="Description" maxlength="50"></textarea>
+                    Task Deadline:
+                    <input type="datetime-local" id="date-task">
+                    <button id="add-task">Add</button>
+                </div>
+                </aside>
+            </div>
+            <br>
+            <div class="extras">
+                <div class="analytics">
+                    <h2>Analytics</h2>
+                    <p id="total-tasks">Total Tasks: 0</p>
+                    <p id="completed-tasks">Completed Tasks: 0</p>
+                    <p id="pending-tasks">Pending Tasks: 0</p>
+                </div>
+                <aside>
+                    <div id="image">
+                    <img src="https://cdn-icons-png.flaticon.com/128/7246/7246748.png">
+                    </div>
+                </aside>
+                <aside>
+                <div class="calendar-container">
+                    <div id="calendar">
+                        <h2>Calendar</h2>
+                    </div>
+                </div>
+                </aside>
+            </div>
+        </div>
+    <script src="app.js">
+    </script>
+    
+    </body></html>
